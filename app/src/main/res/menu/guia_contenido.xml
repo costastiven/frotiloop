@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_menu"
+        android:icon="@drawable/a_menu1"
+        android:title=""
+        app:showAsAction="always">
+        <!--Submenu -->
+        <menu>
+            <item
+                android:id="@+id/item_salir"
+                android:title="@string/Salir"
+                android:icon="@drawable/a_salir"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>

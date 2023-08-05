@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Frotiloop</string>
+    <string name="et_nombre">¿Cómo te llamas?</string>
+    <string name="boton">Jugar</string>
+
+    <string name="et_vidas">Manzanas:</string>
+    <string name="jugador_nombre">Jugador:</string>
+    <string name="total_score">Score: 0</string>
+    <string name="boton_sumar">Comprobar</string>
+    <string name="et_respuesta">Respuesta</string>
+
+    <string name="item1">Ranking</string>
+    <string name="item2">Panel - Administrador</string>
+    <string name="item3">Reportes</string>
+    <string name="item4">Guía</string>
+    <string name="item5">Opciones</string>
+    <string name="item6">Salir</string>
+
+    //menu juego
+    <string name="item_calcu">Calculadora</string>
+
+    <string name="posiciones_text">  Top Mejores</string>
+    <string name="posiciones_jugador"> Jugadores</string>
+    <string name="boton_salir">Salir</string>
+
+    <string name="Bienvenida">¡Bienvenido, Administrador!</string>
+    <string name="boton_modificar">Modificar Usuario</string>
+    <string name="boton_eliminar">Eliminar Usuario</string>
+
+    <string name="texto_modificacion">Modificar Usuarios</string>
+    <string name="texto_eliminacion">Eliminar Usuarios</string>
+
+    <string name="et_identificador">Identificador</string>
+    <string name="nuevo_nombre">Nuevo Nombre</string>
+    <string name="nuevo_puntaje">Nuevo Puntaje</string>
+
+    <string name="texto_rol">Puntos Extra: </string>
+
+    <string name="numUno">numUno</string>
+    <string name="numDos">numDos</string>
+    <string name="numTres">numTres</string>
+    <string name="raya">_____</string>
+
+    <string name="CDU">CDU</string>
+    <string name="Sobra"></string>
+
+    <string name="Anterior">Anterior</string>
+    <string name="Siguiente">Siguiente</string>
+
+    <string name="Ok">OK</string>
+
+    <string name="activar">Encender</string>
+    <string name="desactivar">Apagar</string>
+
+    <string name="fallos">Reporte de Fallos</string>
+    <string name="meses">Reporte de Meses</string>
+
+    <string name="anios">Año - 2022</string>
+
+    //calculadora
+    <string name="tituloCalcu">Calculadora</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cero">0</string>
+    <string name="limpiar">AC</string>
+    <string name="Salir">Salir</string>
+    <string name="punto">.</string>
+    <string name="igual">=</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+    <string name="multi">x</string>
+    <string name="division">/</string>
+
+</resources>

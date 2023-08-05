@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.costa.frotiloop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity_Nivel1"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Nivel2"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Nivel3"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Nivel4"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Nivel5"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Nivel6"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Ranking"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Admin"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Modificar"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Eliminar"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Calculadora"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_EstadisticaFirst"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_EstadisticaTwo"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_EstadisticaTree"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Guia1"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Guia2"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_ModificarSonidos"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Estadistica_2023"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Main2Activity_Guia0"
+            android:configChanges="orientation|screenSize"></activity>
+    </application>
+
+</manifest>

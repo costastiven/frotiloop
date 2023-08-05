@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/a_admin1"
+        android:title="@string/item2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_menu"
+        android:icon="@drawable/a_menu1"
+        android:title=""
+        app:showAsAction="always">
+        <!--Submenu -->
+        <menu>
+            <item
+                android:id="@+id/item1"
+                android:title="@string/item1"
+                android:icon="@drawable/a_rank"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/item3"
+                android:title="@string/item3"
+                android:icon="@drawable/a_reporte"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/item_sonido"
+                android:title="@string/item5"
+                android:icon="@drawable/a_config"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/item_salir"
+                android:title="@string/Salir"
+                android:icon="@drawable/a_salir"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>

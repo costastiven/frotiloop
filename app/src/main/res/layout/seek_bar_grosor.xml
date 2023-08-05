@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_seek_grosor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar_grosor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar_grosor"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:max="40"
+        android:progressDrawable="@drawable/seekbar_progreso_lapiz"
+        android:thumb="@drawable/seekbar_thumb_lapiz" />
+
+    <Button
+        android:id="@+id/btn_seek_aceptar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_seek_grosor"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/radio_seekbar"
+        android:text="Aceptar"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_seek_cancelar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_seek_grosor"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/radio_seekbar"
+        android:text="Cancelar"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+</RelativeLayout>

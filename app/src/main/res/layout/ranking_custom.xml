@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:background="@drawable/evento_lista">
+
+    <TextView
+        android:id="@+id/text1_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="34sp"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/icono_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/mando_b"
+        android:layout_marginLeft="20dp" />
+
+</LinearLayout>
+
+
+

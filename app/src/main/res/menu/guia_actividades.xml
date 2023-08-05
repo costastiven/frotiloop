@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- "file" submenu -->
+    <item
+        android:id="@+id/item_paleta"
+        android:title=""
+        android:icon="@drawable/a_lapiz"
+        app:showAsAction="always">
+
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/item_colores"
+                android:title="Colores"
+                android:icon="@drawable/a_color"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/item_grosor"
+                android:title="Grosor"
+                android:icon="@drawable/a_grosor"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/item_goma"
+                android:title="Goma"
+                android:icon="@drawable/a_goma"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/i_borrar_todo"
+                android:title="Borrar todo"
+                android:icon="@drawable/a_borrar_tod"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_desactivar"
+        android:title=""
+        android:icon="@drawable/a_des_pin"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_calculadora"
+        android:title=""
+        android:icon="@drawable/a_calcu"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/item_menu"
+        android:icon="@drawable/a_menu1"
+        android:title=""
+        app:showAsAction="always">
+        <!--Submenu -->
+        <menu>
+            <item
+                android:id="@+id/item_salir"
+                android:title="@string/Salir"
+                android:icon="@drawable/a_salir"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>

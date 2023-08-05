@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#570297</color>
+    <color name="colorPrimaryDark">#4a087b</color>
+    <color name="colorAccent">#000000</color>
+    <color name="secondary">#06e82e</color>
+
+    //calculadora
+    <color name="naranja">#cd6a00</color>
+    <color name="gris">#282828</color>
+    <color name="gris_claro">#888888</color>
+    <color name="piel">#ff7c40</color>
+    <color name="rojo">#ef0d27</color>
+</resources>
+

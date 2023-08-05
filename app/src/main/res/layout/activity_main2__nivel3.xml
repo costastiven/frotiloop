@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aguanubes"
+    tools:context="com.example.costa.frotiloop.Main2Activity_Nivel3">
+
+    <TextView
+        android:id="@+id/textView_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView_vidas"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/jugador_nombre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_nombre"
+        android:layout_alignStart="@+id/textView_nombre"
+        android:layout_below="@+id/textView_nombre"
+        android:layout_marginTop="32dp"
+        android:text="@string/total_score"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView_vidas"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/tresvidas" />
+
+    <EditText
+        android:id="@+id/editText_resultado"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:background="@drawable/radio_edit"
+        android:ems="10"
+        android:hint="@string/et_respuesta"
+        android:inputType="number"
+        android:maxLength="8"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="170dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/radio_juego"
+        android:onClick="Comparar"
+        android:text="@string/boton_sumar"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/tv_Puntos_Extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_score"
+        android:layout_alignEnd="@+id/imageView_vidas"
+        android:layout_alignRight="@+id/imageView_vidas"
+        android:text="@string/texto_rol"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView_numUno"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/tv_Puntos_Extra"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="75dp"
+        android:text="@string/numUno"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView_numDos"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView_numUno"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/numDos"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/background_dark"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView_raya"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/textView_numDos"
+        android:layout_alignStart="@+id/textView_numDos"
+        android:layout_alignTop="@+id/textView_numDos"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/raya"
+        android:textAlignment="textEnd"
+        android:textColor="@color/rojo"
+        android:textSize="55sp" />
+
+    <com.example.costa.frotiloop.Lienzo
+        android:id="@+id/lienzo_dibujo_act"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/editText_resultado"/>
+
+</RelativeLayout>

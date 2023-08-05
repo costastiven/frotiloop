@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nubes"
+    tools:context="com.example.costa.frotiloop.Main2Activity_Eliminar">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/texto_eliminacion"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="@drawable/radio_edit"
+        android:onClick="Salir"
+        android:text="@string/boton_salir"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lista_panel"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:hint="@string/et_identificador"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#d32f2f"
+        android:onClick="Eliminar"
+        android:text="@string/boton_eliminar"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>

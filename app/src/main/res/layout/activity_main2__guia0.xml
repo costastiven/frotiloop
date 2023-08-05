@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa_n"
+    tools:context="com.example.costa.frotiloop.Main2Activity_Guia0">
+
+
+    <Button
+        android:id="@+id/btn_contenido"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="377dp"
+        android:background="#293249"
+        android:onClick="Contenido"
+        android:text="Contenido"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_actividades"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/btn_contenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:background="#293249"
+        android:onClick="Actividades"
+        android:text="Actividades"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_salir_guia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_actividades"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/radio_edit"
+        android:onClick="salir_guia"
+        android:text="Salir"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+</RelativeLayout>

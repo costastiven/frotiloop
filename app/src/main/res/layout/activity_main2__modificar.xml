@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nubes"
+    tools:context="com.example.costa.frotiloop.Main2Activity_Modificar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/texto_modificacion"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/radio_edit"
+        android:onClick="Salir"
+        android:text="@string/boton_salir"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lista_panel"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lv1"
+        android:layout_alignStart="@+id/lv1"
+        android:layout_below="@+id/lv1"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/et_identificador"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/editText_nuevoNom"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_id"
+        android:layout_alignStart="@+id/editText_id"
+        android:layout_below="@+id/editText_id"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/nuevo_nombre"
+        android:inputType="textPersonName"
+        android:maxLength="15"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/editText_nuevoPun"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_nuevoNom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/nuevo_puntaje"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_nuevoPun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#d32f2f"
+        android:onClick="Modificar"
+        android:text="@string/boton_modificar"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>

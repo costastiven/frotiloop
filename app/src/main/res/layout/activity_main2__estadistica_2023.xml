@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.costa.frotiloop.Main2Activity_Estadistica_2023">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart_2023"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"></com.github.mikephil.charting.charts.BarChart>
+
+</android.support.constraint.ConstraintLayout>

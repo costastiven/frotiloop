@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_user_admin"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/radio_edit"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:maxLength="15"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/et_admin_pass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_user_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:background="@drawable/radio_edit"
+        android:hint="Contraseña"
+        android:maxLength="15"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/et_admin_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_log_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#293249"
+            android:text="Cancelar"
+            android:textColor="@android:color/background_light"
+            android:layout_marginRight="6dp" />
+
+        <Button
+            android:id="@+id/btn_log_aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#293249"
+            android:text="Aceptar"
+            android:textColor="@android:color/background_light"
+            android:layout_marginLeft="6dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
